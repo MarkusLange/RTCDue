@@ -1,0 +1,76 @@
+#######################################
+# Syntax Coloring Map For RTCDue
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+RTCDue	KEYWORD1
+rtc	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+setTime	KEYWORD2
+setDate	KEYWORD2
+setHourMode	KEYWORD2
+setSeconds	KEYWORD2
+setMinutes	KEYWORD2
+setHours	KEYWORD2
+setDay	KEYWORD2
+setMonth	KEYWORD2
+setYear	KEYWORD2
+setAlarmTime	KEYWORD2
+setAlarmDate	KEYWORD2
+
+getHourMode	KEYWORD2
+getSeconds	KEYWORD2
+getMinutes	KEYWORD2
+getHours	KEYWORD2
+getDay	KEYWORD2
+getDayofWeek	KEYWORD2
+getMonth	KEYWORD2
+getYear	KEYWORD2
+
+attachAlarm	KEYWORD2
+detachAlarm KEYWORD2
+disableAlarmTime	KEYWORD2
+disableAlarmDate	KEYWORD2
+
+unixtime	KEYWORD2
+getTime	KEYWORD2
+getDate	KEYWORD2
+getValidEntry	KEYWORD2
+isSummertime	KEYWORD2
+switch_years	KEYWORD2
+timing	KEYWORD2
+dateAlready_set	KEYWORD2
+setClock	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+
+
+#######################################
+# Mean Instances (KEYWORD3)
+#######################################
+
+#RTCDue	KEYWORD3
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+RC	LITERAL1
+XTAL	LITERAL1
+
+US	LITERAL1
+EEC	LITERAL1
+
+__TIME__	LITERAL1
+__DATE__	LITERAL1

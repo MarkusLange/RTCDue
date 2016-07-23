@@ -1,0 +1,8 @@
+2016/07/22 RTCDue Library v1.0
+Initial Release
+
+Rewritten Version of Due RTC. Cleaned Code up. Set the function-calls similar to the other RTC Librarys like RTCZero.
+
+modify
+    - Now use Timezone (//https://github.com/JChristensen/Timezone) to show differend local times.
+      Modifyed Version for the Due on my Github reposity.
