@@ -17,8 +17,8 @@
 #include <RTCDue.h>
 
 int status = WL_IDLE_STATUS;
-char ssid[] = "In Wartung";           // your network SSID (name)
-char pass[] = "74586047417299618119"; // your network password
+char ssid[] = "SSID";                 // your network SSID (name)
+char pass[] = "password";             // your network password
 int keyIndex = 0;                     // your network key Index number (needed only for WEP)
 
 unsigned int localPort = 2390;        // local port to listen for UDP packets
@@ -33,7 +33,7 @@ byte packetBuffer[NTP_PACKET_SIZE];   // buffer to hold incoming and outgoing pa
 WiFiUDP Udp;
 
 // Select the Slowclock source
-//RTC_clock rtc_clock(RC);
+//RTCDue rtc(RC);
 RTCDue rtc(XTAL);
 
 const char* daynames[]={"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"};
@@ -142,7 +142,7 @@ void printTime(time_t t, const char *tz, const char *loc) {
   digitprint(minute(t), 2);
   Serial.print(":");
   digitprint(second(t), 2);
-	Serial.print(" ");
+  Serial.print(" ");
   Serial.print(dayShortStr(weekday(t)));
   Serial.print(": ");
   digitprint(day(t), 2);

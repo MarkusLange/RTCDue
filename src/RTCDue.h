@@ -33,7 +33,6 @@ class RTCDue
     void setClock (unsigned long timestamp);
     uint16_t getYear ();
     int getMonth ();
-    int dateAlreadyset ();
     int getDay ();
     int getDayofWeek ();
     int calculateDayofWeek (uint16_t year, int month, int day);
@@ -58,6 +57,7 @@ class RTCDue
     void getDate (int *day_of_week, int *day, int *month, uint16_t *year);
     int getValidEntry ();
     int isSummertime (int select);
+	int isDateAlreadySet ();
     uint32_t changeTime (uint32_t _now);
     uint32_t changeDate (uint32_t _now);
     

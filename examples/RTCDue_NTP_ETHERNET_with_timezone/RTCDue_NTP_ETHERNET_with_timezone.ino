@@ -32,7 +32,7 @@ byte packetBuffer[NTP_PACKET_SIZE];   // buffer to hold incoming and outgoing pa
 EthernetUDP Udp;
 
 // Select the Slowclock source
-//RTC_clock rtc_clock(RC);
+//RTCDue rtc(RC);
 RTCDue rtc(XTAL);
 
 const char* daynames[]={"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"};

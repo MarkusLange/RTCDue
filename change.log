@@ -1,3 +1,10 @@
+2016/08/10 RTCDue Library v1.1
+
+fixed
+	- minor changes inside the Examples
+	- minor changes inside the Library on the function isDateAlreadySet
+	- some cosmetic changes inside the keywords.txt
+
 2016/07/22 RTCDue Library v1.0
 Initial Release
 

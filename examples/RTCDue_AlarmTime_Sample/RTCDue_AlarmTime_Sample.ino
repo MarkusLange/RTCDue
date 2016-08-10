@@ -18,7 +18,7 @@ long previousMillis = 0;     // will store last time LED was updated
 long interval = 250;         // interval at which to blink (milliseconds)
 
 // Select the Slowclock source
-//rtc rtc(RC);
+//RTCDue rtc(RC);
 RTCDue rtc(XTAL);
 
 void setup() {

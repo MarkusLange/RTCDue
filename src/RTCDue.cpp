@@ -159,6 +159,19 @@ uint32_t RTCDue::currentTime ()
   return (dwTime);
 }
 
+int RTCDue::isDateAlreadySet ()
+{
+  uint32_t dateregister;
+  
+  /* Get current RTC date */
+  dateregister = currentDate ();
+  
+  if ( RESET_VALUE != dateregister )
+    return 1;
+  else
+    return 0;
+}
+
 void RTCDue::getTime (int *hour, int *minute, int *second)
 {
   RTC_GetTime(RTC, (uint8_t*)hour, (uint8_t*)minute, (uint8_t*)second);
@@ -276,19 +289,6 @@ uint32_t RTCDue::currentDate ()
   }
   
   return (dwTime);
-}
-
-int RTCDue::dateAlreadyset ()
-{
-  uint32_t dateregister;
-  
-  /* Get current RTC date */
-  dateregister = currentDate ();
-  
-  if ( RESET_VALUE != dateregister )
-    return 1;
-  else
-    return 0;
 }
 
 void RTCDue::getDate (int *day_of_week, int *day, int *month, uint16_t *year)

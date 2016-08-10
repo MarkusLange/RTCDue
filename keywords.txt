@@ -23,6 +23,7 @@ setHours	KEYWORD2
 setDay	KEYWORD2
 setMonth	KEYWORD2
 setYear	KEYWORD2
+setClock	KEYWORD2
 setAlarmTime	KEYWORD2
 setAlarmDate	KEYWORD2
 
@@ -34,21 +35,18 @@ getDay	KEYWORD2
 getDayofWeek	KEYWORD2
 getMonth	KEYWORD2
 getYear	KEYWORD2
+getTime	KEYWORD2
+getDate	KEYWORD2
+getValidEntry	KEYWORD2
+unixtime	KEYWORD2
+
+isSummertime	KEYWORD2
+isDateAlreadySet	KEYWORD2
 
 attachAlarm	KEYWORD2
 detachAlarm KEYWORD2
 disableAlarmTime	KEYWORD2
 disableAlarmDate	KEYWORD2
-
-unixtime	KEYWORD2
-getTime	KEYWORD2
-getDate	KEYWORD2
-getValidEntry	KEYWORD2
-isSummertime	KEYWORD2
-switch_years	KEYWORD2
-timing	KEYWORD2
-dateAlready_set	KEYWORD2
-setClock	KEYWORD2
 
 #######################################
 # Instances (KEYWORD2)
