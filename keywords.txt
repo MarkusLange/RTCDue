@@ -44,7 +44,7 @@ isSummertime	KEYWORD2
 isDateAlreadySet	KEYWORD2
 
 attachAlarm	KEYWORD2
-detachAlarm KEYWORD2
+detachAlarm	KEYWORD2
 disableAlarmTime	KEYWORD2
 disableAlarmDate	KEYWORD2
 
@@ -71,4 +71,4 @@ US	LITERAL1
 EEC	LITERAL1
 
 __TIME__	LITERAL1
-__DATE__	LITERAL1
+__DATE__	LITERAL1  
